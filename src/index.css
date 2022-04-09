@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Hubballi&family=Poppins:wght@300;400;600;700&family=Quicksand:wght@400;500;700&display=swap');
+
+
+@tailwind base;
+
+.bg-gradient-one{
+    background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%);
+}
+
+.bg-gradient-two{
+    background: linear-gradient(165.41deg, #D99EC9 0%, rgba(246, 240, 196, 0) 100%);
+}
+
+.bg-three{
+    background-color: #DCE9E9
+}
+
+.bg-gradient-four{
+    background: linear-gradient(176.88deg, #F3B8BC 2.58%, #FFDAD4 93.07%);
+}
+
+.bg-gradient-five{
+    background: linear-gradient(270deg, #DADAE4 0.25%, #EEEEF0 24.33%, #F8F8F8 52.08%, #FEFEFE 100%);
+}
+
+.bg-sixth{
+    background-color: #F66E6E;
+}
+
+.bg-gradient-seveen{
+    background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 100%);
+}
+
+.bg-eigth{
+    background-color: #050506;
+}
+
+.navbar-box-shadow{
+    box-shadow: 0px 4px 14px rgba(4, 118, 194, 0.12);
+}
+
+.navbar-background{
+    background: rgba(255, 255, 255, 0.47);
+}
+
+.landing-page::-webkit-scrollbar{
+    display: none
+}
+
+
+
+
+@tailwind components;
+@tailwind utilities;
